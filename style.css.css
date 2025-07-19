@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f4f4f8;
+  color: #111;
+}
+
+header {
+  background: #2c2c54;
+  color: #f4f4f8;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero .profile-img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  color: gold;
+  margin: 15px 0;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #f1c40f;
+  color: #2c2c54;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: gold;
+  font-size: 1.8em;
+  border-bottom: 2px solid gold;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  background-color: #f9f9fb;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li::before {
+  content: "★ ";
+  color: gold;
+  margin-right: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1a1a1a;
+  color: #888;
+  margin-top: 40px;
+}
+
+.socials {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.socials h3 {
+  color: #2c2c54;
+  margin-bottom: 15px;
+}
+
+.socials .icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.socials .icons a {
+  color: gold;
+  font-size: 28px;
+  text-decoration: none;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.socials .icons a:hover {
+  color: #00ccff;
+  transform: scale(1.2);
+}
+
+#contact i {
+  margin-right: 10px;
+  color: #d4af37;
+}
+
+#contact p {
+  margin: 15px 0;
+}
+
+#contact a {
+  color: #222;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: #8b0000;
+  text-decoration: underline;
+}
